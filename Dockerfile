@@ -11,10 +11,6 @@ RUN git clone https://github.com/kekkox88/OMG
 
 # Copy the local config.json file to the container
 
-# Install any needed packages specified in requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt
-
-
 EXPOSE 8888
 
 # Run run.py when the container launches
